@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online bookshelf</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f4f7;
+        }
+        header {
+            background-color: #1f3c88;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #274c9c;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .book {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .book img {
+            width: 120px;
+            height: 170px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .book h3 {
+            font-size: 18px;
+            margin: 8px 0;
+        }
+        .book p {
+            font-size: 14px;
+            color: #555;
+            margin: 5px 0;
+        }
+        .book button {
+            margin-top: 10px;
+            padding: 8px 14px;
+            background-color: #1f3c88;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .book button:hover {
+            background-color: #162d63;
+        }
+        footer {
+            background-color: #1f3c88;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Curator's Shelf</h1>
+    <p>Explore Famous Novels • Read • Learn</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Novels</a>
+    <a href="#">Categories</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About us</a>
+</nav>
+
+<div class="container">
+    <div class="book">
+        <img src="https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_FMjpg_UX1000_.jpg" alt="Book">
+        <h3>Pride and Prejudice</h3>
+        <p>Author: Jane Austen</p>
+        <button>Read Now</button>
+    </div>
+
+    <div class="book">
+        <img src="https://m.media-amazon.com/images/I/81gepf1eMqL.jpg" alt="Book">
+        <h3>To Kill a Mockingbird</h3>
+        <p>Author: Harper Lee</p>
+        <button>Read Now</button>
+    </div>
+
+    <div class="book">
+        <img src="https://imgv2-2-f.scribdassets.com/img/word_document/623620045/original/b058cd709b/1?v=1" alt="Book">
+        <h3>1984</h3>
+        <p>Author: George Orwell</p>
+        <button>Read Now</button>
+    </div>
+
+    <div class="book">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwVUu5ZKDlaeZn5S7XPEkEjAscw3T-EEbgQ&s" alt="Book">
+        <h3>The Great Gatsby</h3>
+        <p>Author: F. Scott Fitzgerald</p>
+        <button>Read Now</button>
+    </div>
+
+    <div class="book">
+        <img src="https://m.media-amazon.com/images/I/81q77Q39nEL.jpg" alt="Book">
+        <h3>Harry Potter</h3>
+        <p>Author: J.K. Rowling</p>
+        <button>Read Now</button>
+    </div>
+
+    <div class="book">
+        <img src="https://m.media-amazon.com/images/I/81uEDUfKBZL.jpg" alt="Book">
+        <h3>The Hobbit</h3>
+        <p>Author: J.R.R. Tolkien</p>
+        <button>Read Now</button>
+    </div>
+
+    <div class="book">
+        <img src="https://www.pdfbooksworld.com/image/cache/catalog/62-500x500.jpg" alt="Book">
+        <h3>Jane Eyre</h3>
+        <p>Author: Charlotte Brontë</p>
+        <button>Read Now</button>
+    </div>
+
+    <div class="book">
+        <img src="https://imgv2-2-f.scribdassets.com/img/word_document/224756706/original/8e4d2796e3/1?v=1" alt="Book">
+        <h3>Little Women</h3>
+        <p>Author: Louisa May Alcott</p>
+        <button>Read Now</button>
+    </div>
+
+    <div class="book">
+        <img src="https://online.pubhtml5.com/hmeo/fxdy/files/large/1.jpg?1686638049" alt="Book">
+        <h3>The Alchemist</h3>
+        <p>Author: Paulo Coelho</p>
+        <button>Read Now</button>
+    </div>
+
+    <div class="book">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpagPCDX0602mUPZVbZVWrcE9Da_0VYXK3mg&s" alt="Book">
+        <h3>Wuthering Heights</h3>
+        <p>Author: Emily Brontë</p>
+        <button>Read Now</button>
+    </div>
+</div>
+
+<footer>
+    <p>Curator's shelf</p>
+</footer>
+
+</body>
+</html>
